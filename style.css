@@ -116,8 +116,134 @@ line-height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(black);
-    background-color: var(blue);
+    color: white;
+    background-color: blue;
     border-radius: 5px;
 }   
+
+/* skills section */
+#skills {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto auto 60px auto;
+    
+}
+
+.skill-image{
+    width: 45%;
+    margin-left: 131px;
+  
+  }
+  .skill-image img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      
+  }
+.skill-text {
+    width: 40%;
+}
+.skill-heading span {
+    color: blue;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+letter-spacing: 1px;
+}
+.skill-heading h2 {
+    color:darkgrey;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.skill-box-container {
+    margin-top: 15px;
+    align-content: center;
+}
+.skill-box {
+    display: flex;
+    margin: 25px 0px;
+}
+.s-box-icon {
+    margin-right: 15px;
+}
+.s-box-icon i {
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #754242;
+}
+.s-box-text strong {
+    color: red;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.s-box-text p {
+font-size: 15px;
+}
+
+/*projects*/
+#my-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto auto 50px auto;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.one {
+    background-image: url(...);
+    background-size: contain;
+}
+
+.two {
+    background-image: url(...);
+    background-size: contain;
+}
+
+.three {
+    background-image: url(...);
+    background-size: contain;
+}
+.project #hide {
+    visibility: hidden;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    opacity: 100%;
+    z-index: 1000;
+}
+.project:hover #hide {
+    visibility: visible;
+    border: 1px solid black;
+}
+.project-text {
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.project-btn {
+    background-color: white;
+    color: #572c5e;
+    cursor: pointer;
+}
+
+
 
